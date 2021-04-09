@@ -12,7 +12,7 @@ Alternatively, you can download the [zip file](https://github.com/IowaBiostat/th
 
 ## Building the document
 
-After downloading/cloning, you should be able to run `pdflatex` on `thesis.tex`.  This template uses `natbib` to handle references, so you will also have to run `bibtex` to update all the references.  If you don't already have a reference manager for LaTeX, I suggest using [JabRef](https://www.jabref.org]) -- it's excellent.
+After downloading/cloning, you should be able to run `pdflatex` on `thesis.tex`.  This template uses `natbib` to handle references, so you will also have to run `bibtex` to update all the references.  If you don't already have a reference manager for LaTeX, I suggest using [JabRef](https://www.jabref.org) -- it's excellent.
 
 ## Contributing
 
