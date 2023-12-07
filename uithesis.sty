@@ -8,12 +8,12 @@
 %   thesis at the University of Iowa
 %
 % Note from Patrick Breheny:
-%   I didn't write, nor have I taken the time to understand, most of
-%   the code below.  Nevertheless, the formatting passed inspection for
-%   my thesis, submitted in May 2009.  Since then, several students have
-%   modified the code to keep up with the University's formatting changes,
-%   although unfortunately, I do not know the story of how this file changed
-%   from 2009 to 2015.
+% I didn't write, nor have I taken the time to understand, most of
+% the code below. Nevertheless, the formatting passed inspection for
+% my thesis, submitted in May 2009. Since then, several students have
+% modified the code to keep up with the University's formatting changes. Since
+% 2015, these modifications have been tracked via git. I unfortunately do
+% not have a complete record of changes from 2009 to 2015.
 
 \makeatletter
 
@@ -194,12 +194,7 @@
   January\or February\or March\or April\or May\or June\or
   July\or August\or September\or October\or November\or December\fi
   \space \number\the\year}
-\ifnum\month=12
-    \@tempcnta=\year \advance\@tempcnta by 1
-    \edef\@copyrightyear{\number\the\@tempcnta}
-\else
-    \def\@copyrightyear{\number\the\year}
-\fi
+\edef\@copyrightyear{\number\the\year}
 
 \newif\ifabtitlepg	\abtitlepgtrue		%true
 \newif\ifabstractpg	\abstractpgtrue     	%true
@@ -279,7 +274,7 @@
 	\begin{center}
 		{\normalsize Copyright by\\ \vskip 1pt
 		{\normalsize\uppercase\expandafter{\@author}}\\ \vskip 1 pt
-		2019\\ \vskip 1pt
+		\@copyrightyear \\ \vskip 1pt
                 All Rights Reserved}
 	\end{center}
 	\vskip 1.0in

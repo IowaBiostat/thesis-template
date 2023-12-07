@@ -18,4 +18,4 @@ After downloading/cloning, you should be able to run `pdflatex` on `thesis.tex`.
 
 If any guidelines have changed and the style file needs modified, please let me know!
 
-Last known student to use this template and have his/her thesis pass inspection with the Graduate College: Biyue Dai (December, 2019).
+Last known student to use this template and have his/her thesis pass inspection with the Graduate College: Ling Zhang (December 2023).
